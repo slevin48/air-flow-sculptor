@@ -8,35 +8,48 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Aerospace dark theme */
+    --background: 215 28% 8%;
+    --foreground: 213 31% 92%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 215 25% 12%;
+    --card-foreground: 213 31% 92%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 215 25% 12%;
+    --popover-foreground: 213 31% 92%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 195 100% 50%;
+    --primary-foreground: 215 28% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 215 20% 18%;
+    --secondary-foreground: 213 31% 92%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 215 20% 18%;
+    --muted-foreground: 213 15% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 195 80% 35%;
+    --accent-foreground: 213 31% 92%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 213 31% 92%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 215 20% 20%;
+    --input: 215 20% 18%;
+    --ring: 195 100% 50%;
 
-    --radius: 0.5rem;
+    /* Technical gradients */
+    --gradient-flow: linear-gradient(135deg, hsl(195 100% 50% / 0.1), hsl(195 80% 35% / 0.05));
+    --gradient-panel: linear-gradient(180deg, hsl(215 25% 12%), hsl(215 20% 10%));
+    --gradient-button: linear-gradient(135deg, hsl(195 100% 50%), hsl(195 80% 35%));
+    
+    /* Technical shadows */
+    --shadow-glow: 0 0 20px hsl(195 100% 50% / 0.3);
+    --shadow-panel: 0 8px 32px hsl(215 28% 8% / 0.8);
+    
+    /* Animation properties */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
